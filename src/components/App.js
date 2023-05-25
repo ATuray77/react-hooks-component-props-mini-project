@@ -4,7 +4,6 @@ import About from "./About";
 import ArticleList from "./ArticleList";
 import Header from "./Header";
 
-//console.log(blogData);
 
 function App() {
   return (

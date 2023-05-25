@@ -1,11 +1,11 @@
 import React from 'react'
-import blogData from '../data/blog';
 
-function About(blogData) {
+
+function About({ image, about}) {
   return (
     <aside>
-      <img src={blogData.image} alt='blog logo'>{blogData.image}</img>
-      <p>{blogData.about}</p>
+      <img src={image} alt='blog logo'>{image}</img>
+      <p>{about}</p>
     </aside>
   );
 }
