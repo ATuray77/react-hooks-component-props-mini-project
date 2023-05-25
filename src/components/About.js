@@ -2,9 +2,15 @@ import React from 'react'
 
 
 function About({ image, about}) {
+  
   return (
     <aside>
-      <img src={image} alt='blog logo'>{image}</img>
+        {image ? (
+          <img src={image} alt="blog logo"/>
+        ) : (
+          "https://via.placeholder.com/215."
+        )}
+      
       <p>{about}</p>
     </aside>
   );
